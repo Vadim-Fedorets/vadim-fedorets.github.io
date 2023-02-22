@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+.main-container {
+    /* background-color: aqua; */
+    width: 1000px;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 85px 0;
+    font-family: 'Russo One';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.navbar__nav-wrapper {
+    display: flex;
+}
+
+.logo {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    display: inline-block;
+}
+
+.logo__ice {
+    color: #0EB7FF;
+}
+
+.logo__baby {
+    color: #006CD0;
+}
+
+.navbar__menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Russo One';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: flex-end;
+
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+.navbar__phone-wrapper {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 4px;
+}
+
+.navbar__phone {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.navbar__menu-item {
+    margin-left: 18px;
+
+    border-bottom: 0.5px solid #000000;
+    box-sizing: border-box;
+}
+
+.navbar__menu-item_chosen {
+    color: #006CD0;
+
+    border-bottom: 0.5px solid #006CD0;
+    box-sizing: border-box;
+}
+
+.navbar__menu-item:first-child {
+    margin-left: 0;
+}
