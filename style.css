@@ -3,10 +3,11 @@ body {
 }
 
 .main-container {
-    /* background-color: aqua; */
     width: 1000px;
     margin: auto;
 }
+
+/* Шапка */
 
 .navbar {
     width: 100%;
@@ -15,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 23px 85px 0;
-    font-family: 'Russo One';
+    font-family: 'Russo One', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -30,7 +31,8 @@ body {
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
-
+    display: flex;
+    align-items: center;
     display: inline-block;
 }
 
@@ -47,7 +49,7 @@ body {
     padding: 0;
     margin: 0;
     
-    font-family: 'Russo One';
+    font-family: 'Russo One', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -73,17 +75,102 @@ body {
 .navbar__menu-item {
     margin-left: 18px;
 
-    border-bottom: 0.5px solid #000000;
+    border-bottom: 0.3px solid #000000;
     box-sizing: border-box;
 }
 
 .navbar__menu-item_chosen {
     color: #006CD0;
 
-    border-bottom: 0.5px solid #006CD0;
+    border-bottom: 0.3px solid #006CD0;
     box-sizing: border-box;
 }
 
 .navbar__menu-item:first-child {
     margin-left: 0;
+}
+
+
+/* Доминирующий модуль */
+
+.greate-condei {
+    padding-top: 44px;
+    padding-right: 4px;
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #004381;
+}
+
+.mango {
+    position: absolute; 
+    bottom: -30px; 
+    display: flex; 
+    justify-content: center; 
+    width: 100%;
+    padding-left: 17px;
+
+    font-size: 90px;
+    line-height: 135px;
+}
+
+.no-limits{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 53px;
+
+    padding-top: 22px;
+}
+
+
+/* Подвал */
+
+.bottom {
+    width: 100%;
+    box-sizing: border-box;
+
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 85px 50px;
+    column-count: 12;
+    column-width: 65px;
+}
+
+.bottom__left-wrapper {
+    display: flex;
+    align-items: flex-end;
+}
+
+.bottom__right-wrapper{
+    display: flex;
+    align-items: flex-end;
+}
+
+.bottom__right-wrapper-social {
+    display: flex;
+    align-items: flex-end;
+}
+
+.bottom-logo {
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.bottom__right-wrapper-padding{
+    padding-right: 35px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.rekviziti-margin {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 18px;
 }
