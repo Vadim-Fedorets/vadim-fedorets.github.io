@@ -26,7 +26,7 @@ body {
     display: flex;
   }
   
-  .logo {
+  .navbar__logo {
     font-size: 32px;
     line-height: 39px;
     display: flex, inline-block;
@@ -51,6 +51,8 @@ body {
   }
   
   .navbar__menu-item {
+    text-decoration: none;
+    color: #000000;
     margin-left: 18px;
     border-bottom: 0.3px solid #000000;
   }
@@ -60,6 +62,7 @@ body {
   }
   
   .navbar__menu-item-chosen {
+    text-decoration: none;
     color: #006cd0;
     margin-left: 18px;
     border-bottom: 0.3px solid #006cd0;
@@ -78,7 +81,7 @@ body {
   
   /* Доминирующий модуль */
   
-  .greate-condei {
+  .main-module {
     padding-top: 44px;
     padding-right: 4px;
     text-align: center;
@@ -89,18 +92,12 @@ body {
     color: #004381;
   }
   
-  .picture {
+  .main-pic {
     margin-bottom: -166px;
   }
   
-  .mango {
-    /* position: absolute;
-      display: flex;
-      justify-content: center; 
-      bottom: -90px;  */
-  
-    margin-bottom: -130px;
-    padding-bottom: 100px;
+  .headline {
+    margin-bottom: -30px;
     width: 100%;
     padding-left: 17px;
   
@@ -108,15 +105,14 @@ body {
     line-height: 135px;
   }
   
-  .no-limits {
+  .headline-sign {
     font-family: "Rubik", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
     line-height: 53px;
   
-    margin-top: 22px;
-    margin-bottom: 0;
+    margin: 22px 0 0 0;
   }
   
 
@@ -133,41 +129,36 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 100px 85px 50px;
-    column-count: 12;
-    column-width: 65px;
   }
   
   .bottom__left-wrapper {
-    display: flex;
+    display: flex, inline-block;
     align-items: flex-end;
-  }
-  
-  .bottom__right-wrapper {
-    display: flex;
-    align-items: flex-end;
-  }
-  
-  .bottom__right-wrapper-social {
-    display: flex;
-    align-items: flex-end;
-    /* border: 0; */
   }
   
   .bottom-logo {
     font-size: 28px;
     line-height: 34px;
   }
-  
-  .bottom__right-wrapper-padding {
-    padding-right: 35px;
-    font-size: 15px;
-    line-height: 18px;
-  }
-  
-  .rekviziti {
+
+  .bottom__left-text {
     margin: 10px 0 0 0;
     font-size: 15px;
     line-height: 18px;
   }
+
+  .bottom__right-wrapper {
+    display: flex;
+    align-items: flex-end;
+  }
   
+  .bottom__right-text {
+    padding-right: 35px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 18px;
+  }
   
+  .bottom__social-links {
+    padding-bottom: 3px;
+  }
