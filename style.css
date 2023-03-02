@@ -1,6 +1,19 @@
 body {
     margin: 0;
+
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
   }
+
+p {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+h1{
+    font-size: 90px;
+    line-height: 135px;
+}
   
   .main-container {
     width: 1000px;
@@ -16,8 +29,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 23px 85px 0;
-    font-family: "Russo One", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
   }
@@ -100,9 +111,6 @@ body {
     margin-bottom: -30px;
     width: 100%;
     padding-left: 17px;
-  
-    font-size: 90px;
-    line-height: 135px;
   }
   
   .headline-sign {
@@ -123,9 +131,6 @@ body {
     width: 100%;
     box-sizing: border-box;
   
-    font-family: "Russo One", sans-serif;
-    font-weight: 400;
-  
     display: flex;
     justify-content: space-between;
     padding: 100px 85px 50px;
@@ -143,8 +148,6 @@ body {
 
   .bottom__left-text {
     margin: 10px 0 0 0;
-    font-size: 15px;
-    line-height: 18px;
   }
 
   .bottom__right-wrapper {
@@ -155,10 +158,8 @@ body {
   .bottom__right-text {
     padding-right: 35px;
     margin: 0;
-    font-size: 15px;
-    line-height: 18px;
   }
   
   .bottom__social-links {
-    padding-bottom: 3px;
+    padding-bottom: 4px;
   }
