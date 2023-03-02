@@ -1,94 +1,89 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Ice Baby</title>
-    
-    <link rel="stylesheet" href="./style.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Russo+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap" rel="stylesheet">
 
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
-    <div class="main-container">
-      <header class="navbar">
-        <div class="navbar__nav-wrapper">
-          <div class="logo">
-            <span class="logo__ice">Айс</span> <span class="logo__baby">Бэйби</span>
-          </div>
+  <title>Ice Baby</title>
 
-          <!-- Менюшка -->
-          <ul class="navbar__menu">
-            <li class="navbar__menu-item">Обогреватели</li>
-            <li class="navbar__menu-item navbar__menu-item_chosen">Кондиционеры</li>
-            <li class="navbar__menu-item">Блог</li>
-            <li class="navbar__menu-item">Доставка</li>
-          </ul>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="main-container">
+
+    <!-- Шапка -->
+    <header class="navbar">
+      <div class="navbar__nav-wrapper">
+        <div class="logo">
+          <span class="logo__ice">Айс</span> 
+          <span class="logo__baby">Бэйби</span>
         </div>
 
-        <div class="navbar__phone-wrapper">
-          <!-- Телефон -->
-          <span class="navbar__phone">
-            8-800-000-00-00
-          </span>
-        </div>
-      </header>
-      
+        <ul class="navbar__menu">
+          <li class="navbar__menu-item">Обогреватели</li>
+          <li class="navbar__menu-item-chosen">Кондиционеры</li>
+          <li class="navbar__menu-item">Блог</li>
+          <li class="navbar__menu-item">Доставка</li>
+        </ul>
+      </div>
+      <div class="navbar__phone">
+        8-800-000-00-00
+      </div>
+    </header>
+
     <!-- Доминирующий модуль -->
     <div class="greate-condei">
 
-      <div style="position: relative;">
-        <img src="https://i.ibb.co/yXyhKBH/eacm-09-msf-n3-339709-014-1.png" alt="greate-condei">
-        <div class="mango" style="position: absolute; bottom: -30px; display: flex; justify-content: center; width: 100%;">
-          <span>Electrolux Mango</span>
-        </div>
+      <div>
+        <img class="picture" src="https://i.ibb.co/yXyhKBH/eacm-09-msf-n3-339709-014-1.png" alt="condei-the-greate">
+        <h1 class="mango">Electrolux Mango</h1>
       </div>
-      
-      <div class="no-limits">
+
+      <h2 class="no-limits">
         Кондиционер без ограничений
+      </h2>
+
+    </div>
+
+    <!-- Подвал -->
+    <footer class="bottom">
+      <div class="bottom__left-wrapper">
+        <div>
+          <div class="bottom-logo">
+            <span class="logo__ice">Айс</span>
+            <span class="logo__baby">Бэйби</span><br>
+          </div>
+          <p class="rekviziti">
+            ИНН 7728609898<br>
+            КПП 771501001<br>
+            ОГРН 1077746297606
+          </p>
+        </div>
       </div>
 
-    </div>
-
-
-      <footer class="bottom">
-        <div class="bottom__left-wrapper">
-            <div>
-              <a class="bottom-logo"><span class="logo__ice">Айс</span> <span class="logo__baby">Бэйби</span><br></a>
-              <!-- Реквизиты -->
-              <div class="rekviziti-margin">
-              ИНН 7728609898<br>
-              КПП 771501001<br>
-              ОГРН 1077746297606
-              </div>
-            </div>
+      <div class="bottom__right-wrapper">
+        <div class="bottom__right-wrapper-padding">
+          Большая Новодмитровская,<br>
+          дом 36, строение 2
         </div>
 
-        <div class="bottom__right-wrapper">
-          <!-- Адрес -->
-          <div class="bottom__right-wrapper-padding">
-            Большая Новодмитровская,<br>
-            дом 36, строение 2
-          </div>
-
-          <div>
-          <!-- Соцсети -->
-            <a class="social"><img src="https://i.ibb.co/KKLBD9B/image-3.png" alt="social" border="0"></a>
-          </div>
+        <div>
+          <a class="social">
+            <img src="https://i.ibb.co/KKLBD9B/image-3.png" alt="social-links">
+          </a>
         </div>
+      </div>
 
-      </footer>
-    </div>
+    </footer>
+  </div>
 
-    
-  </body>
+</body>
 
-  
 </html>
